@@ -7,6 +7,11 @@ if len(sys.argv) == 2:
 full_name = sys.argv[1]
 last_name = sys.argv[2]
 
+#full_name = sys.argv[1:]
+#full_name = .join(sys.argv[1:])
+#full_name = " ".join(sys.argv[1:])
+#print (full_name)
+
 # Format the name
 
 #email = full_name.lower().replace(_old:" ", _new:".") + "@company.continue"

@@ -1,13 +1,15 @@
-delivery_partner = "siggy"
+driver_name ='goWtham'
 
-def hotel():
-    item="pizza"
+print("Driver Name is:", driver_name)
+print(driver_name.lower())
+print(driver_name.upper())
+print(driver_name.capitalize())
+print(driver_name.title())
 
-    def order_now():
-        quantity=2
-        print(f"ordering {quantity} {item} using {delivery_partner}")
-    order_now()
-
-hotel()
-
-print(__file__)
+mobile = '9876543210'
+masked = mobile[:2]
+print(masked)
+masked1 = mobile[-2:]
+print(masked1)0
+maskede_mobile = '******' + mobile[6:10]
+print("Mobile Number:", maskede_mobile) 
